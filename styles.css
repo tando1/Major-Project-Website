@@ -47,12 +47,25 @@ section {
   border-color: black;
 }
 
+#muscles {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-around;
+
+}
+
+.muscle-diagram {
+  text-align: center;
+}
+
 .muscle-diagram img {
-  width: 100%;
-  max-width: 600px;
-  display: block;
+  width: 200px;
+  height: auto;
   margin: 0 auto;
   border: 2px solid #ddd;
+  padding: 5px;
 }
 
 #description {
