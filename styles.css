@@ -63,8 +63,8 @@ section {
 }
 
 .muscle-diagram img {
-  width: 200px;
-  height: auto;
+  width: auto;
+  height: 200px;
   border: 2px solid #ddd;
   padding: 5px;
 }
@@ -75,19 +75,38 @@ section {
   color: #555;
 }
 
-.workout {
+#workouts h2 {
+  text-align: center;
   margin-bottom: 20px;
+}
+
+/*.workout-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}*/
+
+.workouts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
 }
 
 .workout img {
   width: 100%;
-  max-width: 400px;
+  height: 200px;
+  object-fit: cover;
+  border: 2px solid #ddd;
+  padding: 5px;
 } 
 
 figcaption {
   text-align: center;
   font-size: 0.9em;
   color: #888;
+  margin-top: 5px;
 }
 
 .accordion h3 {
