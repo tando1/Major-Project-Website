@@ -80,12 +80,10 @@ section {
   margin-bottom: 20px;
 }
 
-/*.workout-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  gap: 20px;
-}*/
+#workouts h3 {
+  font-weight:lighter;
+  text-align: center;
+}
 
 .workouts {
   display: flex;
@@ -128,6 +126,9 @@ figcaption {
   background-color: #555;
 }
 
+#conclusion {
+  margin-bottom: 85px;
+}
 
 footer {
   background-color: #333;
@@ -138,3 +139,5 @@ footer {
   width: 100%;
   bottom: 0;
 }
+
+

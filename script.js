@@ -13,8 +13,19 @@ $(document).ready(function() {
       $('#description').text('Hover over a muscle to see workouts');
   });  
 
-  $('.accordion h3').click(function() {
-      $(this).next('.content').slideToggle();
-      $(this).toggleClass('active');
+ 
+  $('.accordion h3').each(function() {
+    $(this).append(' +'); //adds '+' to each header before any toggles
   });
+  $('.accordion h3').click(function() {
+    $(this).next('.content').slideToggle(); //toggle content visibility
+
+    if($(this).hasClass('active')){
+      $(this).html($(this).html().replace('-','+')); //changes - to + when collapsing
+    } else {
+      $(this).html($(this).html().replace('+','-')); //changes + to - when expanding
+    }
+    $(this).toggleClass('active'); //toggle active class
+  })
+
 });

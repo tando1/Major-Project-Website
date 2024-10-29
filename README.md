@@ -20,4 +20,8 @@ visual appeal edits
 add more exercises
 add information
 
+helpful links:
+https://www.w3schools.com/howto/howto_js_accordion.asp
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace
+
 
