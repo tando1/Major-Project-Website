@@ -46,14 +46,16 @@ section {
   border-width: 2px;
   border-color: black;
 }
+#muscles h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
 
-#muscles {
+.muscle-images {
   display: flex;
-  align-items: center;
   flex-wrap: wrap;
   gap: 10px;
-  justify-content: space-around;
-
+  justify-content: center;
 }
 
 .muscle-diagram {
@@ -63,15 +65,13 @@ section {
 .muscle-diagram img {
   width: 200px;
   height: auto;
-  margin: 0 auto;
   border: 2px solid #ddd;
   padding: 5px;
 }
 
 #description {
   text-align: center;
-  padding: 10px;
-  font-size: 1.2em;
+  margin-top: 20px;
   color: #555;
 }
 
